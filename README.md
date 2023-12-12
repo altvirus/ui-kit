@@ -1,2 +1,2 @@
 # ui-kit
-UI kit components based on React, MUI
+UI kit components based on React, MUI, typescript
