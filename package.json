@@ -1,0 +1,37 @@
+{
+  "name": "@altvirus/ui-kit",
+  "publichConfig": {
+    "registry": "https://npm.pkg.github.com/altvirus"},
+  "version": "0.0.1",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prettier:check": "prettier --check src",
+    "prettier:fix": "prettier --write src"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^17.0.1",
+    "rollup": "^2.60.0",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@rollup/plugin-json": "^6.0.1",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-dts": "^4.0.1",
+    "typescript": "^4.0.3",
+    "tslib": "^2.6.2",
+    "prettier": "^3.1.0"
+  }
+}
